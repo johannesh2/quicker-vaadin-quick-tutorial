@@ -2,3 +2,7 @@ node
 node_modules
 target
 .mvn
+.settings
+.classpath
+.project
+webpack.generated.js
