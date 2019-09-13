@@ -42,8 +42,8 @@
     <dependencies>
         <dependency>
             <groupId>com.vaadin</groupId>
-            <!-- Replace artifactId with vaadin-core to use only free components -->
-            <artifactId>vaadin</artifactId>
+            <!-- Replace artifactId with vaadin to include commercial components too-->
+            <artifactId>vaadin-core</artifactId>
             <exclusions>
                 <!-- Webjars are only needed when running in Vaadin 13 compatibility mode -->
                 <exclusion>
@@ -113,6 +113,7 @@
                     </webAppConfig>
                 </configuration>
             </plugin>
+            <!-- Plugin to download and install Node and npm locally -->
             <plugin>
                 <groupId>com.github.eirslett</groupId>
                 <artifactId>frontend-maven-plugin</artifactId>

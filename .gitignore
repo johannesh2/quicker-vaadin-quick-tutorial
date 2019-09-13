@@ -5,3 +5,4 @@ target
 .classpath
 .project
 webpack.generated.js
+/bin/
