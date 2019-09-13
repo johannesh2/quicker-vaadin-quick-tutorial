@@ -1,3 +1,3 @@
-Run application using mvn spring-boot:run or directly running Application class from your IDE.
+Run application using mvnw.
 
 Open http://localhost:8080/ in browser.
